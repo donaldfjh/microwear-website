@@ -1,0 +1,481 @@
+[
+  {
+    "id": "W11pro",
+    "name": "Watch 11 Pro",
+    "description": "Premium smartwatch with advanced health tracking and stunning AMOLED display. Perfect for fitness enthusiasts and professionals alike.",
+    "price": 18,
+    "images": [
+      "/images/products/w11poverall.png",
+      "/images/products/w11pblack.jpg",
+      "/images/products/w11ppink.jpg",
+      "/images/products/w11psilver.jpg",
+      "/images/products/w11pScreen.png"
+    ],
+    "specifications": {
+      "display": "2.07, AMOLED, 410x480 pixels, Always-On Display",
+      "processor": "Dual-core 192MHz",
+      "battery": "375mAh, up to 5 days typical use",
+      "waterResistance": "3ATM (30 meters)",
+      "connectivity": ["Bluetooth 5.2", "Wi-Fi", "GPS", "NFC"],
+      "sensors": [
+        "Heart Rate",
+        "SpO2",
+        "Accelerometer",
+        "Barometer",
+        "Compass"
+      ],
+      "compatibility": ["iOS 12+", "Android 6.0+"],
+      "dimensions": "46 x 39.8 x 9.7 mm",
+      "weight": "55g (without strap)"
+    },
+    "highlights": [
+      "24/7 heart rate and ECG monitoring",
+      "100+ sport modes with AI coaching",
+      "Built-in GPS for accurate tracking",
+      "Wireless charging support",
+      "Premium IP68/3ATM waterproof support swimming and diving "
+    ],
+    "variants": [
+      {
+        "id": "mw-pro-x1-black",
+        "name": "Midnight Black",
+        "price": 18,
+        "color": "Black",
+        "bandMaterial": "Silicone",
+        "image": "/images/products/w11pblack.jpg"
+      },
+      {
+        "id": "mw-pro-x1-silver",
+        "name": "Arctic Silver",
+        "price": 18,
+        "color": "Silver",
+        "bandMaterial": "Silicone",
+        "image": "/images/products/w11psilver.jpg"
+      },
+      {
+        "id": "mw-pro-x1-leather",
+        "name": "Classic Leather",
+        "price": 18,
+        "color": "Rose Gold",
+        "bandMaterial": "Silicone",
+        "image": "/images/products/w11ppink.jpg"
+      }
+    ],
+    "features": [
+      "GPS",
+      "Heart Rate Monitor",
+      "SpO2",
+      "Sleep Tracking",
+      "Waterproof"
+    ],
+    "category": "Premium"
+  },
+  {
+    "id": "mw-fit-lite",
+    "name": "Watch S11",
+    "description": "Affordable fitness tracker with essential health features. Your perfect companion for an active lifestyle without breaking the bank.",
+    "price": 10,
+    "images": [
+      "/images/products/S11OverAll.png",
+      "/images/products/w11pblack.jpg",
+      "/images/products/w11psilver.jpg",
+      "/images/products/w11ppink.jpg",
+      "/images/products/S11Function1.png"
+    ],
+    "specifications": {
+      "display": "2.06, IPS, 240x294 pixels",
+      "processor": "Dual-core 192MHz",
+      "battery": "250mAh, up to 5 days typical use",
+      "waterResistance": "IP67",
+      "connectivity": ["Bluetooth 5.4+3.0"],
+      "sensors": ["Heart Rate", "Accelerometer"],
+      "compatibility": ["iOS 10+", "Android 5.0+"],
+      "dimensions": "47.5 x 36.3 x 10.18 mm",
+      "weight": "55g (without strap)"
+    },
+    "variants": [
+      {
+        "id": "mw-fit-lite-black",
+        "name": "Matte Black",
+        "price": 10,
+        "color": "Black",
+        "bandMaterial": "Silicone",
+        "image": "/images/products/w11pblack.jpg"
+      },
+      {
+        "id": "mw-fit-lite-silver",
+        "name": "Matte Silver",
+        "price": 10,
+        "color": "Silver",
+        "bandMaterial": "Silicone",
+        "image": "/images/products/w11psilver.jpg"
+      },
+      {
+        "id": "mw-fit-lite-roseGold",
+        "name": "Matte Rose Gold",
+        "price": 10,
+        "color": "Rose Gold",
+        "bandMaterial": "Silicone",
+        "image": "/images/products/w11ppink.jpg"
+      }
+    ],
+    "highlights": [
+      "Continuous heart rate monitoring",
+      "50+ sport modes",
+      "Sleep quality monitor",
+      "5-day battery life",
+      "Competitve price afford"
+    ],
+    "features": [
+      "Heart Rate Monitor",
+      "Sleep Tracking",
+      "Step Counter",
+      "ECG",
+      "WhatsApp"
+    ],
+    "category": "Premium"
+  },
+  {
+    "id": "mw-sport-ultra",
+    "name": "Watch Ultra 5",
+    "description": "Rugged sports watch designed for extreme athletes. Military-grade durability meets cutting-edge performance tracking.",
+    "price": 10,
+    "images": [
+      "/images/products/Ultra5Overall.jpg",
+      "/images/products/Ultra5Black.png",
+      "/images/products/Ultra5Silver.png",
+      "/images/products/Ultra5whatsapp.jpg",
+      "/images/products/Ultra5Detail3.jpg",
+      "/images/products/Ultra5Detail4.jpg"
+    ],
+    "specifications": {
+      "display": "2 Inch, IPS, 240x296 pixels",
+      "processor": "Qual-core 192MHz",
+      "battery": "340mAh, up to 4 days typical use",
+      "waterResistance": "IP68",
+      "connectivity": [
+        "Bluetooth 5.2+3.0",
+        "Wi-Fi",
+        "GPS"
+      ],
+      "sensors": [
+        "Heart Rate",
+        "Accelerometer",
+        "Compass",
+        "Temperature"
+      ],
+      "compatibility": ["iOS 12+", "Android 6.0+"],
+      "dimensions": "49 x 44 x 14.4 mm",
+      "weight": "50g (without strap)"
+    },
+    "highlights": [
+      "FCC, CE, RoHs certified",
+      "Multi-GNSS positioning system",
+      "3-5 days battery life",
+      "Advanced training metrics"
+    ],
+    "variants": [
+      {
+        "id": "mw-sport-ultra-black",
+        "name": "Tactical Black",
+        "color": "Black",
+        "bandMaterial": "Reinforced Silicone",
+        "image": "/images/products/Ultra5Black.png"
+      },
+      {
+        "id": "mw-sport-ultra-green",
+        "name": "Forest Green",
+        "color": "Green",
+        "bandMaterial": "Reinforced Silicone",
+        "image": "/images/products/Ultra5Silver.png"
+      }
+    ],
+    "features": [
+      "GPS",
+      "WhatsApp reply",
+      "AI voice assistant",
+      "Heart Rate Monitor",
+      "Altimeter",
+      "Compass",
+      "Waterproof"
+    ],
+    "category": "Premium"
+  },
+  {
+    "id": "mw-classic-steel",
+    "name": "Watch MA31",
+    "description": "Elegant hybrid smartwatch with traditional watch aesthetics. Seamlessly blend timeless style with modern technology.",
+    "images": [
+      "/public/images/products/MA31Overall.jpg",
+      "/public/images/products/MA31Gray.jpg",
+      "/public/images/products/MA31Green1.jpg",
+      "/public/images/products/MA31Red.jpg",
+      "/public/images/products/MA31Black.jpg",
+      "/public/images/products/MA31Detail1.jpg",
+      "/public/images/products/MA31AI.jpg",
+      "/public/images/products/MA31Assist.jpg",
+      "/public/images/products/MA31WhatsApp.jpg"
+
+    ],
+    "specifications": {
+      "display": "1.28\" AMOLED, 416x416 pixels, Sapphire Crystal",
+      "processor": "Dual-core 1.0GHz",
+      "battery": "350mAh, up to 10 days typical use",
+      "waterResistance": "3ATM (30 meters)",
+      "connectivity": ["Bluetooth 5.1", "NFC"],
+      "sensors": ["Heart Rate", "SpO2", "Accelerometer", "Gyroscope"],
+      "compatibility": ["iOS 11+", "Android 5.0+"],
+      "dimensions": "42 x 42 x 11.5 mm",
+      "weight": "58g (without strap)"
+    },
+    "highlights": [
+      "Premium stainless steel case",
+      "Sapphire crystal display",
+      "Interchangeable watch faces",
+      "Contactless payment support",
+      "Classic analog-style design"
+    ],
+    "variants": [
+      {
+        "id": "mw-classic-steel-silver",
+        "name": "Gray",
+        "color": "Gray",
+        "bandMaterial": "Stainless Steel",
+        "image":"/public/images/products/MA31Gray.jpg"
+      },
+      {
+        "id": "mw-classic-steel-gold",
+        "name": "Red",
+        "color": "Red",
+        "bandMaterial": "Stainless Steel",
+        "image":"/public/images/products/MA31Red.jpg"
+      },
+      {
+        "id": "mw-classic-steel-leather",
+        "name": "Black",
+        "color": "Black",
+        "bandMaterial": "Genuine Leather",
+        "image":"/public/images/products/MA31Black.jpg"
+      },
+      {
+        "id": "mw-classic-steel-Green",
+        "name": "Green",
+        "color": "Green",
+        "bandMaterial": "Genuine Leather",
+        "image":"/public/images/products/MA31Green1.jpg"
+      }
+    ],
+    "features": ["Heart Rate Monitor", "SpO2", "NFC Payment", "Sleep Tracking"],
+    "category": "Classic"
+  },
+  {
+    "id": "mw-kids-fun",
+    "name": "Watch Su02",
+    "description": "Safe and fun smartwatch designed specifically for children. Keep your kids active and connected with parental controls.",
+    "images": [
+      "/public/images/products/su02Overall.jpg",
+      "/public/images/products/Su02Black.png",
+      "/public/images/products/Su02White.png",
+      "/public/images/products/Su02Purple.png",
+      "/public/images/products/su02Detail1.jpg",
+      "/public/images/products/su02Detail2.jpg",
+      "/public/images/products/su02Detail3.jpg",
+      "/public/images/products/su02Detail4.jpg"
+      
+    ],
+    "specifications": {
+      "display": "1.3\" TFT LCD, 240x240 pixels, Gorilla Glass",
+      "processor": "Single-core 1.0GHz",
+      "battery": "400mAh, up to 5 days typical use",
+      "waterResistance": "IP67 (splash and dust resistant)",
+      "connectivity": ["Bluetooth 5.0", "GPS"],
+      "sensors": ["Accelerometer", "GPS Tracker"],
+      "compatibility": ["iOS 10+", "Android 5.0+"],
+      "dimensions": "38 x 38 x 12 mm",
+      "weight": "35g (without strap)"
+    },
+    "highlights": [
+      "GPS location tracking for parents",
+      "SOS emergency button",
+      "Activity challenges and rewards",
+      "Durable kid-proof design",
+      "Educational games included"
+    ],
+    "variants": [
+      {
+        "id": "mw-kids-fun-black",
+        "name": "Ocean Black",
+        "color": "Black",
+        "bandMaterial": "Soft Silicone",
+        "image":"/public/images/products/Su02Black.png"
+      },
+      {
+        "id": "mw-kids-fun-white",
+        "name": "White",
+        "color": "White",
+        "bandMaterial": "Soft Silicone",
+        "image":"/public/images/products/Su02White.png"
+      },
+      {
+        "id": "mw-kids-fun-purple",
+        "name": "Purple",
+        "color": "purple",
+        "bandMaterial": "Soft Silicone",
+        "image":"/public/images/products/Su02Purple.png"
+      }
+    ],
+    "features": ["GPS", "Step Counter", "Parental Controls", "Games"],
+    "category": "Business"
+  },
+  {
+    "id": "mw-health-ma25",
+    "name": "Watch MA25",
+    "description": "Medical-grade health monitoring smartwatch. Advanced sensors for comprehensive health insights and wellness tracking.",
+    "images": [
+      "/public/images/products/ma25OverAll.jpg",
+      "/public/images/products/ma25Gray.jpg",
+      "/public/images/products/ma25F1.jpg",
+      "/public/images/products/ma25F2.jpg",
+      "/public/images/products/ma25F3.jpg",
+      "/public/images/products/ma25F4.jpg",
+      "/public/images/products/ma25F5.jpg"
+    ],
+    "specifications": {
+      "display": "1.39\" AMOLED, 454x454 pixels, Always-On Display",
+      "processor": "Dual-core 1.3GHz",
+      "battery": "420mAh, up to 12 days typical use",
+      "waterResistance": "5ATM (50 meters)",
+      "connectivity": ["Bluetooth 5.2", "Wi-Fi", "GPS"],
+      "sensors": [
+        "ECG",
+        "PPG Heart Rate",
+        "SpO2",
+        "Blood Pressure",
+        "Body Temperature",
+        "Stress Monitor",
+        "Accelerometer",
+        "Gyroscope"
+      ],
+      "compatibility": ["iOS 12+", "Android 6.0+"],
+      "dimensions": "44 x 44 x 11.2 mm",
+      "weight": "48g (without strap)"
+    },
+    "highlights": [
+      "Medical-grade ECG monitoring",
+      "Blood pressure tracking",
+      "Body temperature sensor",
+      "Stress and breathing exercises",
+      "Sleep apnea detection"
+    ],
+    "variants": [
+      {
+        "id": "mw-health-plus-white",
+        "name": "gray",
+        "color": "Gray",
+        "image":"/public/images/products/ma25Gray.jpg",
+        "bandMaterial": "Medical-grade Silicone"
+      },
+      {
+        "id": "mw-health-plus-black",
+        "name": "Black",
+        "color": "Black",
+        "image":"/public/images/products/ma25Black.jpg",
+        "bandMaterial": "Medical-grade Silicone"
+      },
+      {
+        "id": "mw-health-plus-Purple",
+        "name": "Purple",
+        "color": "Purple",
+        "image":"/public/images/products/MA25.jpg",
+        "bandMaterial": "Medical-grade Silicone"
+      },
+      {
+        "id": "mw-health-plus-pink",
+        "name": "Pink",
+        "color": "Pink",
+        "image":"/public/images/products/ma25Pink.jpg",
+        "bandMaterial": "Medical-grade Silicone"
+      }
+      
+    ],
+    "features": [
+      "ECG",
+      "Heart Rate Monitor",
+      "SpO2",
+      "Blood Pressure",
+      "Temperature",
+      "Sleep Tracking",
+      "Stress Monitor"
+    ],
+    "category": "Woman"
+  },
+  {
+    "id": "mw-health-ma18",
+    "name": "Watch MA18",
+    "description": "Medical-grade health monitoring smartwatch. Advanced sensors for comprehensive health insights and wellness tracking.",
+    "images": [
+      "/public/images/products/ma18Overall.jpg",
+      "/public/images/products/ma18silver.jpg",
+      "/public/images/products/ma18F1.jpg",
+      "/public/images/products/ma18F2.jpg",
+      "/public/images/products/ma18F3.jpg",
+      "/public/images/products/ma18F4.jpg",
+      "/public/images/products/ma18F5.jpg",
+      "/public/images/products/ma18F6.jpg"
+    ],
+    "specifications": {
+      "display": "1.39\" AMOLED, 454x454 pixels, Always-On Display",
+      "processor": "Dual-core 1.3GHz",
+      "battery": "420mAh, up to 12 days typical use",
+      "waterResistance": "5ATM (50 meters)",
+      "connectivity": ["Bluetooth 5.2", "Wi-Fi", "GPS"],
+      "sensors": [
+        "ECG",
+        "PPG Heart Rate",
+        "SpO2",
+        "Blood Pressure",
+        "Body Temperature",
+        "Stress Monitor",
+        "Accelerometer",
+        "Gyroscope"
+      ],
+      "compatibility": ["iOS 12+", "Android 6.0+"],
+      "dimensions": "44 x 44 x 11.2 mm",
+      "weight": "48g (without strap)"
+    },
+    "highlights": [
+      "Medical-grade ECG monitoring",
+      "Blood pressure tracking",
+      "Body temperature sensor",
+      "Stress and breathing exercises",
+      "Sleep apnea detection"
+    ],
+    "variants": [
+      {
+        "id": "mw-health-plus-white",
+        "name": "Silver",
+        "color": "Silver",
+        "image":"/public/images/products/ma18silver.jpg",
+        "bandMaterial": "Medical-grade Silicone"
+      },
+      {
+        "id": "mw-health-plus-black",
+        "name": "Black",
+        "color": "Black",
+        "image":"/public/images/products/ma18Dark.jpg",
+        "bandMaterial": "Medical-grade Silicone"
+      }
+    ],
+    "features": [
+      "ECG",
+      "Heart Rate Monitor",
+      "SpO2",
+      "Blood Pressure",
+      "Temperature",
+      "Sleep Tracking",
+      "Stress Monitor"
+    ],
+    "category": "Woman"
+  }
+  
+]

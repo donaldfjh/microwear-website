@@ -1,0 +1,117 @@
+.error-boundary {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.error-boundary-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.error-icon {
+  width: 80px;
+  height: 80px;
+  color: #e74c3c;
+  margin: 0 auto 1.5rem;
+}
+
+.error-boundary h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.error-boundary p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.error-details {
+  text-align: left;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.error-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+.error-details pre {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  color: #e74c3c;
+}
+
+.error-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.error-actions .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.error-actions .btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.error-actions .btn-primary:hover {
+  background-color: #2980b9;
+}
+
+.error-actions .btn-secondary {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.error-actions .btn-secondary:hover {
+  background-color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+  .error-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .error-boundary h1 {
+    font-size: 1.5rem;
+  }
+
+  .error-boundary p {
+    font-size: 1rem;
+  }
+
+  .error-actions {
+    flex-direction: column;
+  }
+
+  .error-actions .btn {
+    width: 100%;
+  }
+}

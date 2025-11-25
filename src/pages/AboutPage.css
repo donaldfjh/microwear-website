@@ -1,0 +1,444 @@
+.about-page {
+  min-height: calc(100vh - 80px);
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-tagline {
+  font-size: 1.25rem;
+  color: #666;
+  font-style: italic;
+}
+
+.about-section {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.about-section p {
+  font-size: 1.125rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Brand Story Section */
+.brand-story {
+  padding: 0;
+  overflow: hidden;
+}
+
+.brand-story .story-hero {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.brand-story .story-image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.brand-story .factory-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.brand-story .story-image-container:hover .factory-image {
+  transform: scale(1.05);
+}
+
+.brand-story .image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.4) 50%,
+    transparent 100%
+  );
+  padding: 3rem;
+  color: white;
+}
+
+.brand-story .overlay-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: white;
+}
+
+.brand-story .overlay-content p {
+  font-size: 1.25rem;
+  margin: 0;
+  opacity: 0.9;
+  color: white;
+}
+
+.brand-story .story-content {
+  padding: 0 3rem 3rem 3rem;
+}
+
+.brand-story .story-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.brand-story .story-header h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.brand-story .story-subtitle {
+  font-size: 1.25rem;
+  color: #667eea;
+  font-weight: 500;
+}
+
+.brand-story .story-text {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.brand-story .story-text p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.brand-story .story-text strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.brand-story .story-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+}
+
+.brand-story .stat-item {
+  text-align: center;
+  color: white;
+}
+
+.brand-story .stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.brand-story .stat-label {
+  font-size: 1rem;
+  opacity: 0.95;
+  color: white;
+}
+
+/* Values Grid */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.value-card {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.value-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.value-icon svg {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.value-card h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.value-card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Connect Section */
+.connect {
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  min-height: 48px;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  touch-action: manipulation;
+}
+
+.social-link:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.social-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+.social-link span {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 2rem 0;
+  }
+
+  .about-container {
+    padding: 0 1rem;
+  }
+
+  .about-header {
+    margin-bottom: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-tagline {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .brand-story .story-hero {
+    height: 350px;
+  }
+
+  .brand-story .image-overlay {
+    padding: 2rem;
+  }
+
+  .brand-story .overlay-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .brand-story .overlay-content p {
+    font-size: 1rem;
+  }
+
+  .brand-story .story-content {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .brand-story .story-header h2 {
+    font-size: 2rem;
+  }
+
+  .brand-story .story-subtitle {
+    font-size: 1rem;
+  }
+
+  .brand-story .story-stats {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .brand-story .stat-number {
+    font-size: 2.5rem;
+  }
+
+  .values-grid {
+    gap: 1rem;
+  }
+
+  .value-card {
+    padding: 1.25rem;
+  }
+
+  .social-links {
+    gap: 1rem;
+  }
+
+  .social-link {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+  }
+
+  .social-link svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .about-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .brand-story .story-hero {
+    height: 250px;
+  }
+
+  .brand-story .image-overlay {
+    padding: 1.5rem;
+  }
+
+  .brand-story .overlay-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .brand-story .overlay-content p {
+    font-size: 0.875rem;
+  }
+
+  .brand-story .story-content {
+    padding: 0 1rem 1.5rem 1rem;
+  }
+
+  .brand-story .story-header {
+    margin-bottom: 2rem;
+  }
+
+  .brand-story .story-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .brand-story .story-subtitle {
+    font-size: 0.9375rem;
+  }
+
+  .brand-story .story-stats {
+    padding: 1.25rem;
+    gap: 1.25rem;
+  }
+
+  .brand-story .stat-number {
+    font-size: 2rem;
+  }
+
+  .brand-story .stat-label {
+    font-size: 0.875rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .social-link {
+    justify-content: center;
+  }
+}

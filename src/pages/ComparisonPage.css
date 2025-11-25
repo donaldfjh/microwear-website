@@ -1,0 +1,269 @@
+.comparison-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.comparison-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.comparison-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.comparison-header p {
+  font-size: 1.125rem;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.clear-all-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
+  padding: 0.875rem 1.75rem;
+  min-height: 48px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+
+.clear-all-btn:hover {
+  background: white;
+  color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.clear-all-btn:active {
+  transform: translateY(0);
+}
+
+.comparison-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Empty state */
+.empty-comparison {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.empty-icon {
+  width: 64px;
+  height: 64px;
+  color: #cbd5e0;
+  margin-bottom: 1.5rem;
+}
+
+.empty-comparison h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 0 0 0.5rem 0;
+}
+
+.empty-comparison p {
+  font-size: 1rem;
+  color: #718096;
+  margin: 0 0 1.5rem 0;
+  max-width: 400px;
+}
+
+.browse-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  min-height: 48px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  touch-action: manipulation;
+}
+
+.browse-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.browse-btn:active {
+  transform: translateY(0);
+}
+
+/* Add more notice */
+.add-more-notice {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.info-icon {
+  width: 24px;
+  height: 24px;
+  color: #1890ff;
+  flex-shrink: 0;
+}
+
+.add-more-notice span {
+  flex: 1;
+  color: #0050b3;
+  font-size: 0.95rem;
+  font-weight: 500;
+  min-width: 200px;
+}
+
+.add-more-btn {
+  background: #1890ff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  min-height: 44px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+
+.add-more-btn:hover {
+  background: #0050b3;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(24, 144, 255, 0.3);
+}
+
+.add-more-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .comparison-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .comparison-header {
+    padding: 2rem 1.5rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .comparison-header h1 {
+    font-size: 2rem;
+  }
+
+  .comparison-header p {
+    font-size: 1rem;
+  }
+
+  .clear-all-btn {
+    width: 100%;
+  }
+
+  .comparison-content {
+    padding: 1rem;
+  }
+
+  .empty-comparison {
+    padding: 3rem 1.5rem;
+    margin: 1rem;
+  }
+
+  .empty-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .empty-comparison h2 {
+    font-size: 1.25rem;
+  }
+
+  .empty-comparison p {
+    font-size: 0.875rem;
+  }
+
+  .add-more-notice {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .add-more-notice span {
+    min-width: auto;
+  }
+
+  .add-more-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .comparison-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .comparison-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .comparison-header p {
+    font-size: 0.875rem;
+  }
+
+  .comparison-content {
+    padding: 0.75rem;
+  }
+
+  .empty-comparison {
+    padding: 2rem 1rem;
+    margin: 0.75rem;
+  }
+
+  .browse-btn {
+    width: 100%;
+  }
+}

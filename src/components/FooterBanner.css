@@ -1,0 +1,195 @@
+.footer-banner-section {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 0;
+}
+
+.footer-banner-container {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.company-location {
+  background: #f8f9fa;
+  padding: 2rem 2rem;
+}
+
+.location-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 1.25rem 0;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.location-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.location-icon {
+  font-size: 1.25rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.location-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #666;
+  margin: 0 0 0.35rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.location-value {
+  font-size: 0.875rem;
+  color: #333;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.promo-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  max-width: 500px;
+  text-align: center;
+}
+
+.banner-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.35rem 0.875rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.2;
+}
+
+.banner-description {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 1.25rem 0;
+  line-height: 1.5;
+}
+
+.banner-cta {
+  background: white;
+  color: #667eea;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  min-height: 44px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.banner-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .footer-banner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .company-location {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .promo-banner {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .location-title {
+    font-size: 1.25rem;
+  }
+
+  .banner-title {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-banner-section {
+    margin-top: 0;
+  }
+
+  .company-location {
+    padding: 1.5rem 1rem;
+  }
+
+  .promo-banner {
+    padding: 1.5rem 1rem;
+  }
+
+  .location-title {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+  }
+
+  .location-details {
+    gap: 0.875rem;
+  }
+
+  .location-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 1.1rem;
+  }
+
+  .location-label {
+    font-size: 0.65rem;
+  }
+
+  .location-value {
+    font-size: 0.8rem;
+  }
+
+  .banner-title {
+    font-size: 1.25rem;
+  }
+
+  .banner-description {
+    font-size: 0.85rem;
+  }
+
+  .banner-cta {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
