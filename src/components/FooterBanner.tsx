@@ -14,24 +14,24 @@ export const FooterBanner: React.FC = () => {
               <div className="location-text">
                 <p className="location-label">Address</p>
                 <p className="location-value">
-                  123 Innovation Drive, Tech Valley
+                  JiaDa R&D Building, North Hi-Tech Park, Nanshan District
                   <br />
-                  Silicon City, CA 94025
+                  Shenzhen 518057, China
                 </p>
               </div>
             </div>
             <div className="location-item">
               <span className="location-icon">📞</span>
               <div className="location-text">
-                <p className="location-label">Phone</p>
-                <p className="location-value">+1 (555) 123-4567</p>
+                <p className="location-label">WhatsApp</p>
+                <p className="location-value">+852 6733 7121</p>
               </div>
             </div>
             <div className="location-item">
               <span className="location-icon">✉️</span>
               <div className="location-text">
                 <p className="location-label">Email</p>
-                <p className="location-value">info@microwear.com</p>
+                <p className="location-value">donaldfang@njytech.com.cn</p>
               </div>
             </div>
             <div className="location-item">
@@ -39,9 +39,9 @@ export const FooterBanner: React.FC = () => {
               <div className="location-text">
                 <p className="location-label">Business Hours</p>
                 <p className="location-value">
-                  Mon - Fri: 9:00 AM - 6:00 PM
+                  Mon - Fri: 9:30 AM - 6:30 PM
                   <br />
-                  Sat: 10:00 AM - 4:00 PM
+                  Sat: 9:30 AM - 6:00 PM
                 </p>
               </div>
             </div>

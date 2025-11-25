@@ -208,22 +208,23 @@
       "/images/products/MA31WhatsApp.jpg"
     ],
     "specifications": {
-      "display": "1.28\" AMOLED, 416x416 pixels, Sapphire Crystal",
-      "processor": "Dual-core 1.0GHz",
-      "battery": "350mAh, up to 10 days typical use",
+      "display": "1.43\" TFT, 360x360 pixels",
+      "processor": "Dual-core 192GHz",
+      "battery": "350mAh, up to 5 days typical use",
       "waterResistance": "3ATM (30 meters)",
-      "connectivity": ["Bluetooth 5.1", "NFC"],
+      "connectivity": ["Bluetooth 5.4", "NFC"],
       "sensors": ["Heart Rate", "SpO2", "Accelerometer", "Gyroscope"],
       "compatibility": ["iOS 11+", "Android 5.0+"],
-      "dimensions": "42 x 42 x 11.5 mm",
-      "weight": "58g (without strap)"
+      "dimensions": "47.6 x 45.6 x 13.2 mm",
+      "weight": "56g (without strap)"
     },
     "highlights": [
       "Premium stainless steel case",
-      "Sapphire crystal display",
+      "WhatsApp reply",
       "Interchangeable watch faces",
-      "Contactless payment support",
-      "Classic analog-style design"
+      "Offline voice assistant",
+      "Classic analog-style design",
+      "Photo image synchronization"
     ],
     "variants": [
       {
