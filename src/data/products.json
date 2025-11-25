@@ -153,17 +153,8 @@
       "processor": "Qual-core 192MHz",
       "battery": "340mAh, up to 4 days typical use",
       "waterResistance": "IP68",
-      "connectivity": [
-        "Bluetooth 5.2+3.0",
-        "Wi-Fi",
-        "GPS"
-      ],
-      "sensors": [
-        "Heart Rate",
-        "Accelerometer",
-        "Compass",
-        "Temperature"
-      ],
+      "connectivity": ["Bluetooth 5.2+3.0", "Wi-Fi", "GPS"],
+      "sensors": ["Heart Rate", "Accelerometer", "Compass", "Temperature"],
       "compatibility": ["iOS 12+", "Android 6.0+"],
       "dimensions": "49 x 44 x 14.4 mm",
       "weight": "50g (without strap)"
@@ -206,16 +197,15 @@
     "name": "Watch MA31",
     "description": "Elegant hybrid smartwatch with traditional watch aesthetics. Seamlessly blend timeless style with modern technology.",
     "images": [
-      "/public/images/products/MA31Overall.jpg",
-      "/public/images/products/MA31Gray.jpg",
-      "/public/images/products/MA31Green1.jpg",
-      "/public/images/products/MA31Red.jpg",
-      "/public/images/products/MA31Black.jpg",
-      "/public/images/products/MA31Detail1.jpg",
-      "/public/images/products/MA31AI.jpg",
-      "/public/images/products/MA31Assist.jpg",
-      "/public/images/products/MA31WhatsApp.jpg"
-
+      "/images/products/MA31Overall.jpg",
+      "/images/products/MA31Gray.jpg",
+      "/images/products/MA31Green1.jpg",
+      "/images/products/MA31Red.jpg",
+      "/images/products/MA31Black.jpg",
+      "/images/products/MA31Detail1.jpg",
+      "/images/products/MA31AI.jpg",
+      "/images/products/MA31Assist.jpg",
+      "/images/products/MA31WhatsApp.jpg"
     ],
     "specifications": {
       "display": "1.28\" AMOLED, 416x416 pixels, Sapphire Crystal",
@@ -241,28 +231,28 @@
         "name": "Gray",
         "color": "Gray",
         "bandMaterial": "Stainless Steel",
-        "image":"/public/images/products/MA31Gray.jpg"
+        "image": "/images/products/MA31Gray.jpg"
       },
       {
         "id": "mw-classic-steel-gold",
         "name": "Red",
         "color": "Red",
         "bandMaterial": "Stainless Steel",
-        "image":"/public/images/products/MA31Red.jpg"
+        "image": "/images/products/MA31Red.jpg"
       },
       {
         "id": "mw-classic-steel-leather",
         "name": "Black",
         "color": "Black",
         "bandMaterial": "Genuine Leather",
-        "image":"/public/images/products/MA31Black.jpg"
+        "image": "/images/products/MA31Black.jpg"
       },
       {
         "id": "mw-classic-steel-Green",
         "name": "Green",
         "color": "Green",
         "bandMaterial": "Genuine Leather",
-        "image":"/public/images/products/MA31Green1.jpg"
+        "image": "/images/products/MA31Green1.jpg"
       }
     ],
     "features": ["Heart Rate Monitor", "SpO2", "NFC Payment", "Sleep Tracking"],
@@ -273,15 +263,14 @@
     "name": "Watch Su02",
     "description": "Safe and fun smartwatch designed specifically for children. Keep your kids active and connected with parental controls.",
     "images": [
-      "/public/images/products/su02Overall.jpg",
-      "/public/images/products/Su02Black.png",
-      "/public/images/products/Su02White.png",
-      "/public/images/products/Su02Purple.png",
-      "/public/images/products/su02Detail1.jpg",
-      "/public/images/products/su02Detail2.jpg",
-      "/public/images/products/su02Detail3.jpg",
-      "/public/images/products/su02Detail4.jpg"
-      
+      "/images/products/su02Overall.jpg",
+      "/images/products/Su02Black.png",
+      "/images/products/Su02White.png",
+      "/images/products/Su02Purple.png",
+      "/images/products/su02Detail1.jpg",
+      "/images/products/su02Detail2.jpg",
+      "/images/products/su02Detail3.jpg",
+      "/images/products/su02Detail4.jpg"
     ],
     "specifications": {
       "display": "1.3\" TFT LCD, 240x240 pixels, Gorilla Glass",
@@ -307,21 +296,21 @@
         "name": "Ocean Black",
         "color": "Black",
         "bandMaterial": "Soft Silicone",
-        "image":"/public/images/products/Su02Black.png"
+        "image": "/images/products/Su02Black.png"
       },
       {
         "id": "mw-kids-fun-white",
         "name": "White",
         "color": "White",
         "bandMaterial": "Soft Silicone",
-        "image":"/public/images/products/Su02White.png"
+        "image": "/images/products/Su02White.png"
       },
       {
         "id": "mw-kids-fun-purple",
         "name": "Purple",
         "color": "purple",
         "bandMaterial": "Soft Silicone",
-        "image":"/public/images/products/Su02Purple.png"
+        "image": "/images/products/Su02Purple.png"
       }
     ],
     "features": ["GPS", "Step Counter", "Parental Controls", "Games"],
@@ -332,13 +321,13 @@
     "name": "Watch MA25",
     "description": "Medical-grade health monitoring smartwatch. Advanced sensors for comprehensive health insights and wellness tracking.",
     "images": [
-      "/public/images/products/ma25OverAll.jpg",
-      "/public/images/products/ma25Gray.jpg",
-      "/public/images/products/ma25F1.jpg",
-      "/public/images/products/ma25F2.jpg",
-      "/public/images/products/ma25F3.jpg",
-      "/public/images/products/ma25F4.jpg",
-      "/public/images/products/ma25F5.jpg"
+      "/images/products/ma25OverAll.jpg",
+      "/images/products/ma25Gray.jpg",
+      "/images/products/ma25F1.jpg",
+      "/images/products/ma25F2.jpg",
+      "/images/products/ma25F3.jpg",
+      "/images/products/ma25F4.jpg",
+      "/images/products/ma25F5.jpg"
     ],
     "specifications": {
       "display": "1.39\" AMOLED, 454x454 pixels, Always-On Display",
@@ -372,31 +361,30 @@
         "id": "mw-health-plus-white",
         "name": "gray",
         "color": "Gray",
-        "image":"/public/images/products/ma25Gray.jpg",
+        "image": "/images/products/ma25Gray.jpg",
         "bandMaterial": "Medical-grade Silicone"
       },
       {
         "id": "mw-health-plus-black",
         "name": "Black",
         "color": "Black",
-        "image":"/public/images/products/ma25Black.jpg",
+        "image": "/images/products/ma25Black.jpg",
         "bandMaterial": "Medical-grade Silicone"
       },
       {
         "id": "mw-health-plus-Purple",
         "name": "Purple",
         "color": "Purple",
-        "image":"/public/images/products/MA25.jpg",
+        "image": "/images/products/MA25.jpg",
         "bandMaterial": "Medical-grade Silicone"
       },
       {
         "id": "mw-health-plus-pink",
         "name": "Pink",
         "color": "Pink",
-        "image":"/public/images/products/ma25Pink.jpg",
+        "image": "/images/products/ma25Pink.jpg",
         "bandMaterial": "Medical-grade Silicone"
       }
-      
     ],
     "features": [
       "ECG",
@@ -414,14 +402,14 @@
     "name": "Watch MA18",
     "description": "Medical-grade health monitoring smartwatch. Advanced sensors for comprehensive health insights and wellness tracking.",
     "images": [
-      "/public/images/products/ma18Overall.jpg",
-      "/public/images/products/ma18silver.jpg",
-      "/public/images/products/ma18F1.jpg",
-      "/public/images/products/ma18F2.jpg",
-      "/public/images/products/ma18F3.jpg",
-      "/public/images/products/ma18F4.jpg",
-      "/public/images/products/ma18F5.jpg",
-      "/public/images/products/ma18F6.jpg"
+      "/images/products/ma18Overall.jpg",
+      "/images/products/ma18silver.jpg",
+      "/images/products/ma18F1.jpg",
+      "/images/products/ma18F2.jpg",
+      "/images/products/ma18F3.jpg",
+      "/images/products/ma18F4.jpg",
+      "/images/products/ma18F5.jpg",
+      "/images/products/ma18F6.jpg"
     ],
     "specifications": {
       "display": "1.39\" AMOLED, 454x454 pixels, Always-On Display",
@@ -455,14 +443,14 @@
         "id": "mw-health-plus-white",
         "name": "Silver",
         "color": "Silver",
-        "image":"/public/images/products/ma18silver.jpg",
+        "image": "/images/products/ma18silver.jpg",
         "bandMaterial": "Medical-grade Silicone"
       },
       {
         "id": "mw-health-plus-black",
         "name": "Black",
         "color": "Black",
-        "image":"/public/images/products/ma18Dark.jpg",
+        "image": "/images/products/ma18Dark.jpg",
         "bandMaterial": "Medical-grade Silicone"
       }
     ],
@@ -477,5 +465,4 @@
     ],
     "category": "Woman"
   }
-  
 ]
