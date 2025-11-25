@@ -18,16 +18,20 @@
 }
 
 .nav-logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ffffff;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  transition: color 0.3s ease;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease;
 }
 
 .nav-logo a:hover {
-  color: #e0e0e0;
+  opacity: 0.8;
+}
+
+.nav-logo .logo-image {
+  height: 40px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .nav-links {
@@ -115,6 +119,10 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .nav-logo .logo-image {
+    height: 32px;
+  }
+
   .nav-links.desktop {
     display: none;
   }

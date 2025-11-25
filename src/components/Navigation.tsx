@@ -28,7 +28,13 @@ export const Navigation: React.FC = () => {
     <nav className="navigation">
       <div className="nav-container">
         <div className="nav-logo">
-          <Link to="/">MicroWear</Link>
+          <Link to="/">
+            <img
+              src="/images/logos/Microwear.png"
+              alt="MicroWear"
+              className="logo-image"
+            />
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
