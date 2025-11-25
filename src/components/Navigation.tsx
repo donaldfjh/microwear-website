@@ -30,7 +30,7 @@ export const Navigation: React.FC = () => {
         <div className="nav-logo">
           <Link to="/">
             <img
-              src="/images/logos/Microwear.png"
+              src="/images/logos/image.png"
               alt="MicroWear"
               className="logo-image"
             />
