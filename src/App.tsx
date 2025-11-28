@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ProductProvider } from "./contexts/ProductContext";
 import { ComparisonProvider } from "./contexts/ComparisonContext";
 import { Navigation, ErrorBoundary } from "./components";
@@ -27,6 +28,7 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/about" element={<AboutPage />} />
             </Routes>
+            <SpeedInsights />
           </ComparisonProvider>
         </ProductProvider>
       </BrowserRouter>
