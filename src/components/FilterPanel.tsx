@@ -20,20 +20,7 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
     "Blood Pressure",
   ],
 }) => {
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 500 });
   const [selectedFeatures, setSelectedFeatures] = useState<string[]>([]);
-
-  const handlePriceChange = (type: "min" | "max", value: string) => {
-    const numValue = parseFloat(value) || 0;
-    const newPriceRange = {
-      ...priceRange,
-      [type]: numValue,
-    };
-    setPriceRange(newPriceRange);
-
-    // Apply filters
-    applyFilters(newPriceRange, selectedFeatures);
-  };
 
   const handleFeatureToggle = (feature: string) => {
     const newFeatures = selectedFeatures.includes(feature)
@@ -43,19 +30,11 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
     setSelectedFeatures(newFeatures);
 
     // Apply filters
-    applyFilters(priceRange, newFeatures);
+    applyFilters(newFeatures);
   };
 
-  const applyFilters = (
-    price: { min: number; max: number },
-    features: string[]
-  ) => {
+  const applyFilters = (features: string[]) => {
     const filters: ProductFilters = {};
-
-    // Only add price range if it's not the default
-    if (price.min > 0 || price.max < 500) {
-      filters.priceRange = price;
-    }
 
     // Only add features if any are selected
     if (features.length > 0) {
@@ -66,13 +45,11 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
   };
 
   const handleClearFilters = () => {
-    setPriceRange({ min: 0, max: 500 });
     setSelectedFeatures([]);
     onFilterChange({});
   };
 
-  const hasActiveFilters =
-    priceRange.min > 0 || priceRange.max < 500 || selectedFeatures.length > 0;
+  const hasActiveFilters = selectedFeatures.length > 0;
 
   return (
     <div className="filter-panel">
@@ -83,41 +60,6 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
             Clear All
           </button>
         )}
-      </div>
-
-      {/* Price Range Filter */}
-      <div className="filter-section">
-        <h4>Price Range</h4>
-        <div className="price-inputs">
-          <div className="price-input-group">
-            <label htmlFor="min-price">Min</label>
-            <input
-              id="min-price"
-              type="number"
-              min="0"
-              max={priceRange.max}
-              value={priceRange.min}
-              onChange={(e) => handlePriceChange("min", e.target.value)}
-              placeholder="$0"
-            />
-          </div>
-          <span className="price-separator">-</span>
-          <div className="price-input-group">
-            <label htmlFor="max-price">Max</label>
-            <input
-              id="max-price"
-              type="number"
-              min={priceRange.min}
-              max="500"
-              value={priceRange.max}
-              onChange={(e) => handlePriceChange("max", e.target.value)}
-              placeholder="$500"
-            />
-          </div>
-        </div>
-        <div className="price-display">
-          ${priceRange.min} - ${priceRange.max}
-        </div>
       </div>
 
       {/* Features Filter */}
