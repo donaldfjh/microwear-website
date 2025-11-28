@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroSection } from "../components/HeroSection";
-import { ProductGrid } from "../components/ProductGrid";
+import { HomeProductGrid } from "../components/HomeProductGrid";
 import { LoadingSpinner } from "../components/LoadingSpinner";
 import { WhyChooseUs } from "../components/WhyChooseUs";
 import { Testimonials } from "../components/Testimonials";
@@ -44,7 +44,7 @@ export const HomePage: React.FC = () => {
             />
           ) : (
             <>
-              <ProductGrid
+              <HomeProductGrid
                 products={featuredProducts}
                 onProductClick={handleProductClick}
               />

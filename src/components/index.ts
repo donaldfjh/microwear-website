@@ -1,6 +1,8 @@
 export { Navigation } from "./Navigation";
 export { ProductCard } from "./ProductCard";
 export { ProductGrid } from "./ProductGrid";
+export { HomeProductCard } from "./HomeProductCard";
+export { HomeProductGrid } from "./HomeProductGrid";
 export { ImageGallery } from "./ImageGallery";
 export { SearchBar } from "./SearchBar";
 export { FilterPanel } from "./FilterPanel";
