@@ -29,7 +29,7 @@
 }
 
 .nav-logo .logo-image {
-  height: 50px;
+  height: 35px;
   width: auto;
   object-fit: contain;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
@@ -121,7 +121,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-logo .logo-image {
-    height: 36px;
+    height: 28px;
   }
 
   .nav-links.desktop {
