@@ -81,24 +81,69 @@ export const ContactForm: React.FC<ContactFormProps> = ({
     }
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (validateForm()) {
-      // In a real application, this would send data to a server
-      console.log("Form submitted:", formData);
-      setIsSubmitted(true);
+      const accessKey = import.meta.env.VITE_WEB3FORMS_PUBLIC_KEY;
 
-      // Reset form after successful submission
-      setTimeout(() => {
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
+      // Debug: Log environment check (remove after testing)
+      console.log("Environment check:", {
+        hasAccessKey: !!accessKey,
+        keyPrefix: accessKey ? accessKey.substring(0, 8) + "..." : "undefined",
+      });
+
+      // Debug: Check if access key is available
+      if (!accessKey) {
+        console.error("Web3Forms access key is not configured!");
+        alert(
+          "Contact form is not properly configured. Please contact the site administrator."
+        );
+        return;
+      }
+
+      try {
+        // Send email using Web3Forms
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            access_key: accessKey,
+            name: formData.name,
+            email: formData.email,
+            subject: formData.subject,
+            message: formData.message,
+            to: "donaldfang@njytech.com.cn",
+          }),
         });
-        setIsSubmitted(false);
-      }, 3000);
+
+        const result = await response.json();
+
+        if (result.success) {
+          console.log("Form submitted successfully:", formData);
+          setIsSubmitted(true);
+
+          // Reset form after successful submission
+          setTimeout(() => {
+            setFormData({
+              name: "",
+              email: "",
+              subject: "",
+              message: "",
+            });
+            setIsSubmitted(false);
+          }, 3000);
+        } else {
+          console.error("Form submission failed:", result);
+          alert(`Failed to send message: ${result.message || "Unknown error"}`);
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        alert("An error occurred. Please try again later.");
+      }
     }
   };
 

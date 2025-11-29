@@ -67,16 +67,8 @@ export const Testimonials: React.FC = () => {
                 key={`${testimonial.id}-${index}`}
                 className="testimonial-card"
               >
-                <div className="testimonial-logo">
-                  <img
-                    src={testimonial.logo}
-                    alt={testimonial.company}
-                    onError={(e) => {
-                      // Fallback to a placeholder if logo doesn't exist
-                      e.currentTarget.src =
-                        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23e0e0e0'/%3E%3Ctext x='50' y='50' font-family='Arial' font-size='14' fill='%23666' text-anchor='middle' dominant-baseline='middle'%3ELogo%3C/text%3E%3C/svg%3E";
-                    }}
-                  />
+                <div className="testimonial-header">
+                  <h3 className="testimonial-name">{testimonial.name}</h3>
                 </div>
 
                 <div className="testimonial-rating">
@@ -90,7 +82,6 @@ export const Testimonials: React.FC = () => {
                 <p className="testimonial-feedback">"{testimonial.feedback}"</p>
 
                 <div className="testimonial-author">
-                  <p className="author-name">{testimonial.name}</p>
                   <p className="author-company">{testimonial.company}</p>
                 </div>
               </div>
